@@ -1,0 +1,16 @@
+---
+image: node:alpine
+definitions:
+  caches:
+    npm: ~/.npm
+pipelines:
+  pull-requests:
+    '**':
+      - step:
+          name: Test with Jest
+          caches:
+            - npm
+          script:
+            - cd app && npm ci
+            - cd api && npm ci
+            # - npx jest --ci <-- uncomment this when we have some tests, otherwise will fail the build

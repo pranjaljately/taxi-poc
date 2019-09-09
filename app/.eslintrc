@@ -1,0 +1,19 @@
+{
+  "extends": ["wesbos"],
+  "rules": {
+    "no-console": 2,
+    "no-use-before-define": [
+      "error",
+      { "functions": false, "variables": false }
+    ],
+    "react/destructuring-assignment": "never",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 120
+      }
+    ]
+  }
+}
