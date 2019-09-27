@@ -1,8 +1,6 @@
 # Taxi React-Native expo POC
 
-Small proof of concept to try to build the CaBeam react-native (expo) app.
-
-We have the repo divided into:
+Repo divided into:
 
 * api: contains the server side code consumed by the app
 * app: conforms the mobile app
