@@ -1,4 +1,4 @@
-# CaBeam API
+# API
 
 This is a Node/Express REST API for getting quotes from different cab-hailing companies.
 
