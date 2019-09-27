@@ -20,7 +20,7 @@ This is a Node/Express REST API for getting quotes from different cab-hailing co
 
 ## Get quotes for journey
 
-####[GET api/quotes/:startLatitude-:startLongitude-:endLatitude-:endLongitude]
+#### [GET api/quotes/:startLatitude-:startLongitude-:endLatitude-:endLongitude]
 
 - Request: Get quotes from different cab companies for the journey provided
 
