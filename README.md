@@ -1,4 +1,4 @@
-# CaBeam React-Native expo POC
+# Taxi React-Native expo POC
 
 Small proof of concept to try to build the CaBeam react-native (expo) app.
 
@@ -15,7 +15,7 @@ This is a Node/Express REST API for getting quotes from different cab-hailing co
 
 ```bash
   npm install
-  npm run server # Runs on http://localhost:5000
+  npm run server # Express API Only :5000
 ```
 
 # API Usage & Endpoints
@@ -85,8 +85,9 @@ This is a Node/Express REST API for getting quotes from different cab-hailing co
 
 - **[Without Nix]** Simply run
 
-  ```
-  npm run start & npm run api
+  ```bash
+  npm run start # Expo Client Only :19002
+  npm run start & npm run api # Express & Expo :5000 & :19002
   ```
 
 - Go to URL provided usually
